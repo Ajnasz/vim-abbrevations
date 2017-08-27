@@ -1,18 +1,16 @@
-inoremap { {}<Left>
-inoremap ( ()<Left>
-inoremap [ []<Left>
-augroup myMacros
+augroup vim-abbrevations
+  au!
 
-"  iab locatoin location
-"  iab locatoins locations
-"  iab Locatoins Locations
-"  iab Locatoin Location
-"  iab locaiton location
-"  iab Locaiton Location
-"  iab picutre picture
-"  iab picutres pictures
-"  iab #g @licence General Public Licence v2
-"  iab #a @author Koszti Lajos [Ajnasz] http://ajnasz.hu ajnasz@ajnasz.hu
+  iab locatoin location
+  iab locatoins locations
+  iab Locatoins Locations
+  iab Locatoin Location
+  iab locaiton location
+  iab Locaiton Location
+  iab picutre picture
+  iab picutres pictures
+  "  iab #g @licence General Public Licence v2
+  "  iab #a @author Koszti Lajos [Ajnasz] http://ajnasz.hu ajnasz@ajnasz.hu
   iab lenght length
   iab resposne response
   iab subsription subscription
