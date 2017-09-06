@@ -32,17 +32,17 @@ augroup vim-abbrevations
   iab id= id=""<esc>ha<backspace>
   iab name= name=""<esc>ha<backspace>
   iab <img> <img src="!cursor!" alt="" title="" /><esc>:call search('!cursor!','b')<cr>cf!
-  iab /** /**<cr>/<esc>ka
   " iab hth <?xml version="1.0" encoding="utf-8"?><return><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><return><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu" lang="hu" dir="ltr"><return><head><return><title></title><return><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><return></head><return><body>
   iab <form> <form action="!cursor!" method=""><cr><label for=""></label><input type="text" name="" id="" /><cr></form><esc>:call search('!cursor!','b')<cr>cf!
   iab <input> <input type="!cursor!" name="" value="" id="" /><esc>:call search('!cursor!','b')<cr>cf!
   iab <textarea> <textarea name="!cursor!" value="" id=""></textarea><esc>:call search('!cursor!','b')<cr>cf!
+
   " iab hte </body></html>
-  iab phpr echo "<pre>";print_r();echo "</pre>";<esc>$x5b
-  iab phpv echo "<pre>";var_dump();echo "</pre>";<esc>$x5b
+  " iab phpr echo "<pre>";print_r();echo "</pre>";<esc>$x5b
+  " iab phpv echo "<pre>";var_dump();echo "</pre>";<esc>$x5b
   " iab plpre '<pre>';Dumper.dump();'</pre>';<esc>3ba
   iab #c <style type="text/css"></style>
   iab #j <script type="text/javascript"></script>
-  iab cl <link type="text/css" rel="stylesheet" href="" /><esc>F"h
-  " iab Dumper USE Dumper;<cr>'<pre>';<cr>Dumper.dump();<cr>'</pre>'<esc>$xk$i
+
+  iab <expr> dts strftime('%F %T')
 augroup end
