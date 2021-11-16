@@ -45,4 +45,5 @@ augroup vim-abbrevations
   iab #j <script type="text/javascript"></script>
 
   iab <expr> dts strftime('%F %T')
+  iab shrug ¯\_(ツ)_/¯
 augroup end
